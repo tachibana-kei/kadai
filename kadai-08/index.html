@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        button {
+            font-size:30px;
+        }
+     </style>   
+</head>
+<body>
+    <p>おみくじプログラム</p>
+    <button id="omikuji">おみくじを引く</button>
+
+    <script>
+        const omikuji = document.getElementById('omikuji')
+        omikuji.addEventListener('click' , () => {
+            const luck = Math.random()
+            if(luck > 0.9) {
+                alert('最高！大吉だよ！')
+            } else if (luck > 0.7) {
+                alert('まあまあ！中吉だよ')
+            } else if (luck > 0.4) {
+                alert('The普通！小吉だよ')
+            } else if (luck > 0.2) {
+                alert('微妙…末吉だよ')
+            } else if (luck > 0.05) {
+                alert('残念…凶だよ…')
+            } else {
+                alert('大凶だよ…今日は気をつけて行動してね！')
+            }
+        })
+</script>
+</body>
+</html>
