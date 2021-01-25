@@ -1,0 +1,1 @@
+(()=>{var r={902:r=>{r.exports=()=>{alert("やっはろー、A！")}},78:r=>{r.exports=()=>{alert("やっはろー、B！")}}},t={};function e(o){if(t[o])return t[o].exports;var s=t[o]={exports:{}};return r[o](s,s.exports,e),s.exports}(()=>{const r=e(902),t=e(78);r(),t()})()})();
